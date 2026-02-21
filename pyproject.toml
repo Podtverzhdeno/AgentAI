@@ -1,0 +1,11 @@
+[project]
+name = "agentstudy"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.13"
+dependencies = [
+    "langchain-deepseek>=1.0.1",
+    "langchain-ollama>=1.0.1",
+    "langchain-openai>=1.1.10",
+    "python-dotenv>=1.2.1",
+]
