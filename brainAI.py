@@ -1,8 +1,10 @@
 import os
 import asyncio
+
 from dotenv import load_dotenv
 from langchain_core.messages import HumanMessage
 from langchain_openai import ChatOpenAI
+
 # Загружаем переменные окружения
 load_dotenv()  # путь к твоему .env
 
